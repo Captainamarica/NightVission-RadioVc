@@ -3,7 +3,7 @@ services:
   worker:
     build: .
     environment:
-      STRING_SESSION: $STRING_SESSION
+      SESSION: $SESSION
       API_ID: $API_ID
       API_HASH: $API_HASH
       MONGO_DB_URI: $MONGO_DB_URI
